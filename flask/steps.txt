@@ -15,7 +15,17 @@ Visit
 http://127.0.0.1:5000/hello
 ---
 
+3. About sqlite database
+3.1 Create the db.py file inside flaskr directory
+3.2 Create the schema.sql file inside flaskr directory
+3.3 Add the python functions necessary in the db.py file
+3.4 Import and call the init_app function in init file
 
+---
+Initialize the database
+
+flask --app flaskr init-db
+---
 
 
 ---

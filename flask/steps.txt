@@ -31,7 +31,8 @@ flask --app flaskr init-db
 4.1 Run Flask
 4.2 Visit http://127.0.0.1:5000/auth/register
 
-
+5. Create the styles file
+5.1 Visit http://127.0.0.1:5000/auth/login
 
 ---
 Tutorial

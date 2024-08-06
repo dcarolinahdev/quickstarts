@@ -1,0 +1,66 @@
+A simple blog
+---
+
+This tutorial works on a basic blog with a sqlite database,
+It allows a register, login, and logout verifing existing user and password incorrect,
+Also allows create, update and delete posts by different blog users.
+
+Without a user logged its possible to list all posts and its creators.
+An user can't update or delete posts created by another users.
+---
+
+These are the steps followed to create this basic blog in Flask.
+
+1. Create the virtualenv
+1.1 Install Flask inside it
+
+2. Create directory flaskr
+2.1 Create the __init__.py file inside it
+2.2 Create first version to init file
+
+---
+Run the app with
+flask --app flaskr run --debug
+
+Visit
+http://127.0.0.1:5000/hello
+---
+
+3. About sqlite database
+3.1 Create the db.py file inside flaskr directory
+3.2 Create the schema.sql file inside flaskr directory
+3.3 Add the python functions necessary in the db.py file
+3.4 Import and call the init_app function in init file
+
+---
+Initialize the database
+
+flask --app flaskr init-db
+---
+
+4. Create the html templates
+4.1 Run Flask
+4.2 Visit http://127.0.0.1:5000/auth/register
+
+5. Create the styles file
+5.1 Visit http://127.0.0.1:5000/auth/login
+
+6. Create the blueprints for blog section
+
+---
+Current endpoints
+
+/auth/register/  ---> register
+/auth/login/     ---> login
+/auth/logout/    ---> logout
+
+/                ---> main index
+/create/         ---> create a post
+/<int:id>/update ---> update a post
+/<int:id>/delete ---> delete a post
+---
+
+---
+Tutorial
+https://flask.palletsprojects.com/en/3.0.x/tutorial
+---

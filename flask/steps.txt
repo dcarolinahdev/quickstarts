@@ -1,0 +1,24 @@
+Tutorial steps
+
+1. Create the virtualenv
+1.1 Install Flask inside it
+
+2. Create directory flaskr
+2.1 Create the __init__.py file inside it
+2.2 Create first version to init file
+
+---
+Run the app with
+flask --app flaskr run --debug
+
+Visit
+http://127.0.0.1:5000/hello
+---
+
+
+
+
+---
+Tutorial
+https://flask.palletsprojects.com/en/3.0.x/tutorial
+---

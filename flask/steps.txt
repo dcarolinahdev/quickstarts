@@ -47,6 +47,25 @@ flask --app flaskr init-db
 
 6. Create the blueprints for blog section
 
+7. Create the tests
+7.1 Install requirements
+7.2 Create toml file
+7.3 Running the Tests
+7.4 Measure the code coverage
+
+---
+Install requirements
+  $ pip install pytest coverage
+
+Running the Tests
+  $ pytest
+
+Measure the code coverage
+  $ coverage run -m pytest
+  $ coverage report
+  $ coverage html
+---
+
 ---
 Current endpoints
 

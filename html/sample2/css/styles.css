@@ -66,6 +66,10 @@ aside {
     padding-top: 20px;
 }
 
+aside input[type=text] {
+    width: 100%;
+}
+
 footer {
     background-color: lightgreen;
     text-align: center;

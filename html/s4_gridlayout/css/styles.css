@@ -1,0 +1,45 @@
+:root {
+    --red-1: #e31715;
+    --orange-1: #e38315;
+    --orange-2: #eaca4b;
+    --cream-1: #f8efad;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.grid-layout {
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+    width: 80%;
+    margin: 0 auto;
+    background-color: lightsalmon;
+    padding: 20px;
+    border: 1px solid salmon;
+}
+
+.caja {
+    border: 4px solid var(--red-1);
+    background-color: var(--orange-2);
+    text-align: center;
+
+    line-height: 200px;
+}
+
+.c1 {
+    grid-column: 1 / span 2;
+}
+
+.c2 {
+    grid-row: 2 / span 2;
+}

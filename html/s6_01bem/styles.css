@@ -1,0 +1,41 @@
+/*
+Bloque - Elemento - Modificador
+
+class: for styles
+id: for functionality
+
+.bloque__elemento--modificador
+
+*/
+
+
+.cards {
+    /* sizes */
+    width: 60%;
+    /* spaced */
+    margin: 10px auto;
+    padding: 10px;
+    /* borders */
+    border: 1px solid gray;
+    box-shadow: 0px 0px 20px gray;
+    border-radius: 5px;
+}
+
+.cards .card {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    margin: 5px;
+    background-color: beige;
+    border-bottom: 1px solid rgb(235, 185, 60);
+}
+
+.cards .card h3 {
+    font-weight: bold;
+    color: darkgoldenrod;
+}
+
+.cards .card a {
+    text-decoration: none;
+    font-style: italic;
+    color: chocolate;
+}

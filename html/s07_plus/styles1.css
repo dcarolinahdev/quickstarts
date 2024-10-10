@@ -17,6 +17,7 @@ body {
     background-color: var(--cream-1);
 }
 
+
 /* section main */
 
 .main {
@@ -38,11 +39,13 @@ body {
 
 .menu__dishes {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
+    gap: 10px;
 }
 
 .dish {
-    width: 400px;
+    width: 300px;
     border: 1px solid var(--orange-1);
     border-radius: 5px;
     box-shadow: 0 0 10px var(--orange-1);
@@ -56,4 +59,17 @@ body {
 
 .dish__img {
     width: 100%;
+    max-height: 65%;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+/* section footer */
+
+footer {
+    padding: 20px 0;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+    color: var(--pink-1);
 }

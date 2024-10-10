@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html { /* equal to :root*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+}
+
+.title {
+    color: darkcyan;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.caja {
+    text-align: center;
+    background-color: aquamarine;
+    border: 1px solid black;
+}
+
+.c1 {
+    font-size: 12px;
+    width: 300px;
+    height: 300px;
+    margin: 0px auto 20px auto;
+}
+
+.c2 {
+    font-size: 12px;
+    width: 50%;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+.c3 {
+    font-size: 20px;
+    width: 12.5em;
+    height: 12.5em;
+    margin-bottom: 20px;
+}
+
+.c3 .caja__title {
+    font-size: 1.5em; /* 1.5x20 (parent element c3) = 30px */
+}
+
+.c4 {
+    font-size: 4rem; /* 4x10*/
+    width: 250px; /* only for reference */
+    height: 25rem; /* 25x10 */
+    margin-bottom: 20px;
+}
+
+@media (max-width: 375px) {
+    :root {
+        font-size: 8px;
+    }
+}
+
+@media (min-width: 768px) {
+    :root {
+        font-size: 11px;
+    }
+}
+
+@media (min-width: 900px) {
+    :root {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 1080px) {
+    :root {
+        font-size: 14px;
+    }
+}

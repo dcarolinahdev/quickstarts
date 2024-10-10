@@ -17,6 +17,43 @@ body {
     background-color: var(--cream-1);
 }
 
+/* section main */
+
+.main {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.main__name {
+    color: var(--pink-1);
+}
+
+/* section menu */
+
+.menu__title {
+    padding: 20px 0px;
+    color: var(--orange-1);
+    text-align: center;
+}
+
+.menu__dishes {
+    display: flex;
+    justify-content: space-around;
+}
+
+.dish {
+    width: 400px;
+    border: 1px solid var(--orange-1);
+    border-radius: 5px;
+    box-shadow: 0 0 10px var(--orange-1);
+    background-color: var(--orange-2);
+}
+
+.dish__name {
+    padding: 8px 16px;
+    color: var(--pink-1);
+}
+
 .dish__img {
-    width: 300px;
+    width: 100%;
 }

@@ -1,0 +1,86 @@
+/*
+Bloque - Elemento - Modificador
+
+class: for styles
+id: for functionality
+
+.bloque__elemento--modificador
+
+*/
+
+.cards {
+    width: 60%;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid gray;
+    box-shadow: 0px 0px 20px gray;
+    border-radius: 5px;
+}
+
+.cards__card {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    margin: 5px;
+    background-color: beige;
+    border-bottom: 1px solid rgb(235, 185, 60);
+}
+
+.card__title {
+    font-weight: bold;
+    color: darkgoldenrod;
+}
+
+.card__link {
+    background-color: coral;
+    color: white;
+
+    padding: 4px 12px;
+    border-radius: 6px;
+
+    font-size: 10px;
+    text-decoration: none;
+    font-style: italic;
+}
+
+.card__link--red {
+    background-color: red;
+}
+
+.card__readmore {
+    color: chocolate;
+
+    padding: 4px 12px;
+    border-radius: 6px;
+
+    font-size: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    border: 1px solid chocolate;
+}
+
+/* classic form */
+/*
+.cards .card {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    margin: 5px;
+    background-color: beige;
+    border-bottom: 1px solid rgb(235, 185, 60);
+}
+
+.cards .card h3 {
+    font-weight: bold;
+    color: darkgoldenrod;
+}
+
+.cards .card a {
+    background-color: coral;
+    color: white;
+
+    padding: 4px 12px;
+    border-radius: 6px;
+
+    font-size: 10px;
+    text-decoration: none;
+    font-style: italic;
+}*/

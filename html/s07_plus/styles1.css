@@ -16,3 +16,7 @@
 body {
     background-color: var(--cream-1);
 }
+
+.dish__img {
+    width: 300px;
+}

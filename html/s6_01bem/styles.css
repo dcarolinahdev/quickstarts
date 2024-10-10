@@ -8,14 +8,11 @@ id: for functionality
 
 */
 
-
-.cards {
-    /* sizes */
+/* classic form */
+/*.cards {
     width: 60%;
-    /* spaced */
     margin: 10px auto;
     padding: 10px;
-    /* borders */
     border: 1px solid gray;
     box-shadow: 0px 0px 20px gray;
     border-radius: 5px;
@@ -38,4 +35,4 @@ id: for functionality
     text-decoration: none;
     font-style: italic;
     color: chocolate;
-}
+}*/

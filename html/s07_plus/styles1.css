@@ -1,0 +1,18 @@
+/* variables */
+:root {
+    --red-1: #e31715;
+    --orange-1: #e38315;
+    --orange-2: #eaca4b;
+    --cream-1: #f8efad;
+    --pink-1: #bc4749;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: var(--cream-1);
+}

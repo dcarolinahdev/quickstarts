@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>s23 - form</title>
+</head>
+<body>
+
+    <h1>Tabla de Edades</h1>
+
+    <table summary="Tabla de edades">
+        <tr>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Edad</th>
+        </tr>
+        <tr>
+            <td>Diana</td>
+            <td>Hernández</td>
+            <td>28</td>
+        </tr>
+        <tr>
+            <td>Diana</td>
+            <td>Hernández</td>
+            <td rowspan="2">29</td>
+        </tr>
+        <tr>
+            <td>Diana</td>
+            <td>Hernández</td>
+        </tr>
+        <tr>
+            <td>Diana</td>
+            <td>Hernández</td>
+            <td>31</td>
+        </tr>
+        <tr>
+            <td>Diana</td>
+            <td colspan="2">Hernández</td>
+        </tr>
+    </table>
+
+    <h1>Saluda</h1>
+
+    <form action="">
+        <label for="name">Nombre:</label>
+        <input type="text" name="name" id="nombre" placeholder="Introduce un nombre">
+
+        <input type="submit" value="Enviar">
+    </form>
+
+    <h1>PQR</h1>
+
+    <form action="">
+        <fieldset>
+            <legend>Name</legend>
+            <label for="fisrtname"></label>
+            <textarea name="fisrtname" id="fisrtname"></textarea>
+        </fieldset>
+        <fieldset>
+            <legend>Radio</legend>
+            <label for="edad">Nacionalidad:</label>
+
+            <input type="radio" name="col" id="col"/>
+            <label for="col">Colombia</label>
+
+            <input type="radio" name="ven" id="ven"/>
+            <label for="ven">Venezuela</label>
+
+            <input type="radio" name="per" id="per"/>
+            <label for="per">Perú</label>
+
+            <input type="radio" name="ec" id="ec"/>
+            <label for="ec">Ecuador</label>
+        </fieldset>
+        <fieldset>
+            <legend>Email</legend>
+            <label for="email"></label>
+            <input type="email" name="email" id="email"/>
+        </fieldset>
+        <fieldset>
+            <legend>Select level:</legend>
+
+            <label for="level">lvl</label>
+            <select name="level" id="level">
+                <option value="jr">junior</option>
+                <option value="ss">semi senior</option>
+                <option value="sr">senior</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Checkbox</legend>
+
+            <label for="vegano">Vegano?</label>
+            <input type="checkbox" name="vegano" id="vegano">
+        </fieldset>
+        <fieldset>
+            <legend>File</legend>
+
+            <label for="file">Adjunto:</label>
+            <input type="file" name="file" id="file">
+        </fieldset>
+        <fieldset>
+            <legend>Date</legend>
+
+            <label for="birthday">Birthday:</label>
+            <input type="date" name="birthday" id="birthday">
+        </fieldset>
+        <fieldset>
+            <legend>Number</legend>
+
+            <label for="number">Birthday:</label>
+            <input type="number" name="number" id="number">
+        </fieldset>
+        <fieldset>
+            <legend>Color</legend>
+
+            <label for="color">Color:</label>
+            <input type="color" name="color" id="color">
+        </fieldset>
+
+        <input type="submit" value="Enviar">
+    </form>
+
+    <h1>Form</h1>
+
+    <form action="">
+        <div>
+            <label for="buscar">Buscar:</label>
+            <input type="text" name="buscar" id="buscar">
+        </div>
+        <div>
+            <label for="cel">Cel:</label>
+            <input type="tel" name="cel" id="cel">
+        </div>
+        <div>
+            <label for="hour">Hora:</label>
+            <input type="time" name="hour" id="hour">
+        </div>
+        <div>
+            <label for="web">Web:</label>
+            <input type="url" name="web" id="web">
+        </div>
+        <div>
+            <label for="prog">Progr:</label>
+            <progress max="100" value="27"></progress>
+        </div>
+
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpiar">
+    </form>
+
+    <h1>Validations</h1>
+
+    <form action="">
+        <div>
+            <label for="name">Nombre:</label>
+            <input type="text" name="name" id="name"
+                   required minlength="3" maxlength="10" pattern="[A-Za-z ]+" />
+        </div>
+
+        <input type="submit" value="Enviar">
+    </form>
+
+    <h1>Text</h1>
+
+    <pre>
+        ahhhh necesito <bdo dir="rtl">estudiar</bdo>...         y hacer <abbr title="manualidades">man</abbr>.
+    </pre>
+    
+</body>
+</html>

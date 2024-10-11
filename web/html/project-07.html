@@ -149,6 +149,18 @@
         <input type="submit" value="Enviar">
         <input type="reset" value="Limpiar">
     </form>
+
+    <h1>Validations</h1>
+
+    <form action="">
+        <div>
+            <label for="name">Nombre:</label>
+            <input type="text" name="name" id="name"
+                   required minlength="3" maxlength="10" pattern="[A-Za-z ]+" />
+        </div>
+
+        <input type="submit" value="Enviar">
+    </form>
     
 </body>
 </html>

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>s21 - form</title>
+    <title>s22 - form</title>
 </head>
 <body>
 
@@ -42,11 +42,42 @@
 
     <h1>Saluda</h1>
 
-    <form action="" method="post">
+    <form action="">
         <label for="name">Nombre:</label>
         <input type="text" name="name" id="nombre" placeholder="Introduce un nombre">
 
         <input type="submit" value="Enviar">
+    </form>
+
+    <h1>PQR</h1>
+
+    <form action="">
+        <fieldset>
+            <legend>Name</legend>
+            <label for="fisrtname"></label>
+            <textarea name="fisrtname" id="fisrtname"></textarea>
+        </fieldset>
+        <fieldset>
+            <legend>Radio</legend>
+            <label for="edad">Nacionalidad:</label>
+
+            <input type="radio" name="col" id="col"/>
+            <label for="col">Colombia</label>
+
+            <input type="radio" name="ven" id="ven"/>
+            <label for="ven">Venezuela</label>
+
+            <input type="radio" name="per" id="per"/>
+            <label for="per">Perú</label>
+
+            <input type="radio" name="ec" id="ec"/>
+            <label for="ec">Ecuador</label>
+        </fieldset>
+        <fieldset>
+            <legend>Email</legend>
+            <label for="email"></label>
+            <input type="email" name="email" id="email"/>
+        </fieldset>
     </form>
     
 </body>
